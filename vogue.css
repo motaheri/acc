@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+html { /* Force vertical scrollbar */
+	background:#ABA688 url(http://u1.ipernity.com/10/98/81/3509881.211814b6.jpg);
+}
+body {
+	color:#251B0D;
+	height: 445px;
+	background:#ABA688 url(http://u1.ipernity.com/10/32/16/3523216.5fc9d1b1.jpg) -150px 0px;
+	background-repeat: repeat-x;
+}
+a:link, a:visited {
+	color:#824739;
+}
+a:hover {
+	color:#C30400;
+}
+h1, h2, h3 {
+	color:#DCDACD;
+}
+div#container {
+	background:#000 url(http://u1.ipernity.com/10/17/04/3511704.d257ff0b.gif) repeat-y;
+}
+div#header-image {
+	/*background-image:url(http://u1.ipernity.com/10/86/95/3558695.768e48e2.png);*/
+	background-image:url(http://u1.ipernity.com/10/07/48/3690748.a153b4fa.png);
+}
+div#menu, div#aboutDes {
+	background-color: transparent;
+	background: url(http://u1.ipernity.com/10/63/69/3516369.b1029d9c.png);
+}
+div.a-post {
+	color:#999;
+}
+div.a-post a {
+	color:#ccc;
+}
+div.a-post a:hover {
+	color:#fff;
+}
+img.filter-image {
+	background-image: url(http://u1.ipernity.com/9/80/60/3438060.50c62fda.gif);
+}
+img.filter-music {
+	background-image: url(http://u1.ipernity.com/10/16/51/3491651.672e5d2f.gif);
+}
+img.filter-author {
+	background-image: url(http://u1.ipernity.com/9/80/62/3438062.304b080b.gif);
+}
+div.post-meta ul {
+	border-color: #824739;
+}
+div#bottom {
+	background-image:url(http://u1.ipernity.com/10/17/03/3511703.2d37dadb.gif);
+	background-position: 3px -4px;
+}
+
+/* Quote post */
+div.quote {
+	background: url(http://u1.ipernity.com/10/67/00/3516700.e8e9c8d6.jpg) no-repeat 100px 0px;
+}
+div.quote {
+	min-height:440px;
+}
+/* mac hide \*/
+* html div.quote{height:440px;}
+/* end hide */
+div.source {
+	color: #888;
+}
+div.source a {
+	color: #bbb;
+}
+div.source a:hover {
+	color: #fff;
+}
+
+/* Chat post */
+div.chat ul span.label {
+	color:#fff;
+}
+
+/* Audio post */
+div.audio {
+	padding-bottom: 320px;
+	background: url(http://u1.ipernity.com/10/30/94/3513094.a99014b6.jpg) no-repeat -8px 0px;
+}
+
+/* Multibox */
+.MultiBoxContainer {
+	background: #C8C3B0 url(http://u1.ipernity.com/10/98/81/3509881.211814b6.jpg);
+}

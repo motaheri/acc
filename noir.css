@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+html { /* Force vertical scrollbar */
+	background:#000;
+	background-image: none;
+}
+body {
+	color:#824739;
+	background:#000;
+	background-image: none;
+}
+a:link, a:visited {
+	color:#824739;
+}
+a:hover {
+	color:#C30400;
+}
+h1, h2, h3 {
+	color:#DCDACD;
+}
+div#container {
+	background:#000;
+	background-image: none;
+}
+div#header-image {
+	/*background-image:url(http://u1.ipernity.com/10/86/95/3558695.768e48e2.png);*/
+	background-image:url(http://u1.ipernity.com/10/07/48/3690748.a153b4fa.png);
+}
+h3 {
+	color: #eee;
+}
+div.a-post {
+	color:#999;
+}
+div.a-post a {
+	color:#ccc;
+}
+div.a-post a:hover {
+	color:#fff;
+}
+div#menu, div#aboutDes {
+}
+div#aboutDes a {
+	color:#824739;
+}
+div.spacer {display:none;}
+img.filter-image {
+	background-image: url(http://u1.ipernity.com/9/80/60/3438060.50c62fda.gif);
+}
+img.filter-music {
+	background-image: url(http://u1.ipernity.com/10/16/51/3491651.672e5d2f.gif);
+}
+img.filter-author {
+	background-image: url(http://u1.ipernity.com/9/80/62/3438062.304b080b.gif);
+}
+div.post-meta ul {
+	border-color: #824739;
+}
+div#bottom {
+	background-image: url('http://u1.ipernity.com/10/85/69/3558569.d9c423b9.gif');
+	background-position: 3px 30px;
+}
+
+/* Quote post */
+div.quote {
+	background-image: none;
+	min-height:inherit;
+}
+/* mac hide \*/
+* html div.quote{height:inherit;}
+/* end hide */
+div.source {
+	color: #888;
+}
+div.source a {
+	color: #bbb;
+}
+div.source a:hover {
+	color: #fff;
+}
+
+/* Chat post */
+div.chat ul span.label {
+	color: #ddd;
+}
+
+/* Audio post */
+div.audio {
+	padding-bottom: 0px;
+	background-image: none;
+}
+
+/* Multibox */
+.MultiBoxContainer {
+	background:#000;
+}
+
+
+/*** Safari Hacks ***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	div#bottom {background-position: 3px 20px;}
+}

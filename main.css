@@ -1,0 +1,618 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	/**********************************************
+	Theme: Beige 0.9
+	Release date: 20 Dec 2008
+	Author:  Mohammad Taheri (http://pictor.us/)
+	Credit Due: Based on Heather River's (http://heather-rivers.com/) Black Tie (http://blacktie.tumblr.com/)
+	License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+	Script hosting at: http://acollective.freehostia.com/	
+		|Alternative script hosted at: http://dl.getdropbox.com/u/428209/acc/	
+		|2nd Alternative Script hosting at (no caching): http://sites.google.com/site/acommoncollective/
+	Images hosted at: http://ipernity.com/
+	/**********************************************
+
+
+	html
+	body
+	container [
+	/header
+	//top-right
+	///blind
+	///menu
+	///aboutDes
+	///following
+	//top-right
+	///header-image
+	/header
+	/posts
+	//post-container
+	///a-post
+	////blind
+	////post photo
+	/////the-image
+	/////the-image [IE]
+	/////caption
+	////post photo
+	///a-post
+	///post-meta
+	//post-container
+	/posts
+	onblack
+	]
+
+	body:#251B0D
+	link:#824739
+	hover:#C30400
+	*/
+
+	/* General */
+	div#onblack{
+		margin:0px;
+		position:fixed;
+		top:10px;
+		left:10px;
+		text-align:center;
+		z-index: 200;
+	}
+	div#onblack a {
+		border:0 !important;
+	}
+	div#onblack img:hover {
+		background: url(http://u1.ipernity.com/10/63/69/3516369.b1029d9c.png);
+	}
+	div#container {
+		margin: 0px auto;
+		text-align:center;
+	}
+	.extlink {
+      	background: transparent url(http://u1.ipernity.com/10/24/92/3532492.47cc1702.gif) no-repeat top right;
+      	margin-left: 2px;
+      	height: 9px;
+      	width: 14px;
+      	cursor: pointer;
+      	padding-left: 14px;
+	}
+	.clear {
+		clear:both;
+		overflow:hidden;
+		height:0px;
+		display:block;
+	}
+	.blind { }
+
+
+	/* Header */
+	div#header {
+		position:relative;
+		text-align:center;
+		z-index: 10;
+	}
+	div#header-image {
+		margin: 0px auto;
+		width: 430px;
+		height: 250px;
+		padding-bottom:15px;
+		text-align:center;
+	}
+	div#header h1 {
+		text-align:center;
+		font-size:80px;
+		padding:20px 0 20px 0;
+		margin:0 20px 0 20px;
+	}
+	div#header h1 a {
+		border:0 !important;
+	}
+	ul#top-left, div#top-right {
+		position:absolute;
+        top:0px;
+	}
+	ul#top-left {
+		left:-110px;
+		text-align:right;
+		list-style:none;
+		text-decoration:none;
+		border:none
+	}
+	#top-left img {
+		margin-right:-4px;
+	}
+	div#top-right {
+		/*right:-200px;*/
+		text-align:left;
+		width:177px;
+		left:480px;
+	} 
+	div#menu, div#aboutDes {
+		background-color: #C5C0AA;
+		color:#251B0D;
+		border: 1px solid #A6A086;
+		border-bottom-color:#64524D;
+		border-top: none;
+		z-index: 10;
+	}
+	div#menu {
+		padding: 37px 0px 0px 5px;
+	}
+	div#menu p {
+		padding:0px 10px;
+	}
+	div#menu ul {
+		list-style:none;
+		line-height:10px;
+	}
+	div#menu li {
+		text-decoration:none;
+		border:none;
+	}
+    div#menu a, div#header-image a, p.filter-posts a, p.author-link{
+        text-decoration:none;
+		border:0pt;
+		padding:0pt;
+	}
+	div#aboutDes {
+		width:155px;
+		padding:10px 10px 25px 10px;
+	} 
+	div#aboutDes a {
+		font-weight:normal;
+	}
+	div#aboutDes p {
+		padding-bottom:10px;
+	}
+	div.subtitle h2 {
+		background-color:#121212;
+		border-top:1px solid #4B2509;
+		border-bottom:1px solid #4B2509;
+		text-align:center;
+		font-family:verdana;
+		font-size:11px;
+		letter-spacing:0;
+		text-transform:uppercase;
+		padding:3px;
+		margin: 0px 7px;
+	} 
+
+
+	/* Following */
+	div#followingList {
+		position:absolute;
+		margin:0px;
+		top:0px;
+		left:185px;
+		color:#6A5852;
+		text-align:center;
+		font-size:12px;
+		background: url(http://u1.ipernity.com/10/87/86/3528786.2c12be2e.png);
+		z-index: 10;
+	} 
+	div#followingList a {
+		border:0 !important;
+	} 
+	div#followingList ul {
+		text-align:center;
+		width:22px;
+		border: 1px #6A6655 solid;
+		border-top:none;
+	} 
+	div#followingList ul li {
+		text-align:center;
+		list-style:none;
+	} 
+	div#followingList img{
+		padding:3px;
+		margin:0px;
+		border:0px solid #666;
+	}
+	div#followingList img:hover {
+		background-color:#C30400;
+	} 
+	ul#followingPpl {
+		line-height:12px;
+		padding:10px 0px 0px 0px;
+	}
+	div#followingPpl img {
+		width:16px;
+		height:16px;
+	} 
+	#followingButton {
+		height: 141px;	
+	}
+
+
+	/* Posts */
+	div#posts {	
+	}
+	div.post-container {
+		position:relative;
+		margin: 0px auto;
+		text-align: center;
+	} 
+
+	div.post h2 {
+		font-size:18px;
+		line-height:24px;
+		text-transform:uppercase;
+		letter-spacing:2px;
+		margin-bottom:18px;
+	} 
+	h2 a {
+		font-weight:normal !important;
+	} 
+	h3 {
+		font-size:22px;
+		letter-spacing:0px;
+	}
+	div.spacer {position:absolute;top:0pt;visibility:hidden;}
+
+	div.post {
+		padding:20px 0px;
+		position:relative;
+		width:430px;
+		text-align: left;
+		position:relative;
+	} 
+	div.post p {
+		margin:.5em 0 1em 0;
+	} 
+	div.post blockquote {
+		margin-left:2em;
+	} 
+	div.post ol, div.post ul {
+		padding-left:2em;
+	} 
+
+
+	/* Post meta (permalink, date, tags, reblog links) */
+	div.a-post { 
+		padding-left:0px; 
+		width: 430px;
+		text-align: left;
+		margin: 0px auto 0px auto;
+		text-align:center;
+		z-index:10;
+	}
+	div.a-post img.permalink {
+		width:100px;
+		height:100px;
+		position:absolute;
+		left:362px;
+		top:10px;
+		border:0 !important;
+		display: none;
+		z-index:30;
+	}
+	div.a-post:hover img.permalink {
+		filter:alpha(opacity=50); opacity: 0.5;  -moz-opacity:0.5; -khtml-opacity:0.5;
+		zoom: 1;
+	}
+	div.post-meta {
+		width:200px;
+		position:absolute;
+		left:-205px;
+		top:6px;
+		text-align:right;
+		color:#EEEDE7;
+		padding-top:20px;
+		line-height: 9pt;
+		padding-right: 10px;
+	}
+	div.post-meta a {
+		font-weight: normal;
+		border:0 !important;	
+	} 
+	div.post-meta ul {
+		list-style:none;
+		padding-bottom: 50px;
+		border-right:1px dotted;
+		padding-right:10px;
+	} 
+	li.post-date {
+		padding: 3px 0px 3px 0px;
+		/* margin-bottom: 10px; */
+		padding-right: 10px;
+		margin-right: -10px;
+		margin-bottom:3px;	
+	}	
+
+
+	/* Bottom */
+	div#bottom, div#bottom a.prev-link, div#bottom a.next-link {
+		height:120px;
+	}
+	div#bottom {
+		position:relative;
+		text-align:center;
+		margin-bottom: 0px;
+		padding-bottom:60px;
+		overflow: visible;
+	} 
+	div#bottom ul {
+		list-style:none;
+	}
+	div#bottom li {
+		text-align: center;
+	}
+	div#bottom a {
+		font-size:60px;
+		font-weight:normal !important;
+	} 
+	div#bottom a.prev-link, div#bottom a.next-link {
+		position:absolute;
+		width: 110px;
+		top: 0px;
+		padding-top:60px;
+		line-height: 30px;
+	} 
+	div#bottom a.prev-link {
+		left:0;
+	} 
+	div#bottom a.next-link {
+		right:0;
+	} 	
+	.link-guide {
+		font-size: 20px;
+	}
+
+
+	/* Footer */
+	#footer {
+		text-align:center;
+		padding:0px;
+		padding-bottom:30px;
+		z-index: 10;
+	} 
+	#footer a {
+		border:0 !important;
+	} 
+	#footer p {
+		margin-bottom:8px;
+	}
+
+
+	/* Quote post */
+	div.quote {
+		padding-right: 15px;
+		margin-right: -15px;
+	}
+	h3.length {
+		z-index:20;
+		padding:40px 20px 5px 45px;
+		line-height: 26px;
+	}
+	img.curly {
+		/*
+		margin-top:20px;
+		margin-left:-5px;
+		position: absolute;
+		z-index:30;
+		*/
+	}
+	span.curly {
+		position:absolute;
+		left:.01em;
+		top:.4em;
+		font-size:6em;
+		letter-spacing:-.105em;
+		line-height: .6em;
+		vertical-align:text-top;
+	}
+	div.source {
+		font-size:12px;
+		padding:30px 15px 10px 45px;
+		margin: -30px -15px 0px 0px;
+	}
+
+
+	/* Photo post */
+	div.photo div.the-image {
+		margin-bottom:6px;
+	} 
+	div.photo div.the-image img {
+		margin:0 auto;
+		width:100%;
+		max-width:430px;
+	}
+	div.post-container img {
+		max-width:430px;
+	}
+	div.photo div.the-image a, div.post-container img a {
+		border:0 !important;
+	} 
+	
+	
+	/* Chat post */
+	div.chat ul {
+		list-style:none;
+		margin-left:0 !important;
+	} 
+	div.chat ul li {
+		padding:2px 0;
+	} 
+	div.chat ul span.label {
+		text-transform:uppercase;
+		font-weight:bold;
+		letter-spacing:1px;
+	} 
+	
+	
+	/* Audio post */
+	div.audio {
+		padding-right: 15px;
+		margin-right: -15;
+		min-height: 150px;
+	} 
+	/* mac hide \*/
+	* html div.audio{height:150px}
+	/* end hide */
+	div.audio_player{z-index:10;}
+	div.music-poster{display:none;}
+	div#container, div#bottom, div#footer {
+		width:475px;
+		margin: 0px auto 0px 230px;
+	}
+	div#header-image, img.filter-image, img.filter-music, img.filter-author, div#bottom {
+		background-repeat: no-repeat;
+	}
+
+
+	/* StreamPad */
+	div#streampadBottomBar, div#streampadDrawer {
+		z-index: 2000; /* Tumblr Buttons on top right are at 1337 */
+		line-height:normal;
+	}
+	div#streampadBottomBar {
+		background-color: transparent !important;
+		background-image: none !important;
+		color: #eee;
+	}
+	#streampadBottomBar a{
+		color: #824739 !important;
+		/* display:none; */ /* if i was evil */
+	}
+	#streampadBottomBar a:hover{
+		color: #eee !important;
+	}
+	a#streampadAudioCaption {color:#fff !important;}
+	#streampadAudioCaption span, #streampadAudioPlays {color:#eee !important;}
+	div#streampadDrawer {
+		border-bottom: #4E0300 solid 30px;
+		margin-bottom:-30px;
+		filter:alpha(opacity=90); opacity: 0.9;  -moz-opacity:0.9; -khtml-opacity:0.9;
+	}
+	div#streampadPopNew, div#streampadPlaylistButton {
+		filter:alpha(opacity=40); opacity: 0.4;  -moz-opacity:0.4; -khtml-opacity:0.4;
+		text-align:center;
+		width:55px !important;
+		background-color:#57120D !important;
+	}
+	div#streampadPopNew:hover, div#streampadPlaylistButton, div#streampadPlaylistButton:hover {
+		filter:alpha(opacity=100); opacity: 1.0;  -moz-opacity:1.0; -khtml-opacity:1.0;
+	}
+
+
+	/*** Safari Hacks ***/
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		div#bottom a.prev-link, div#bottom a.next-link {line-height: 15px;}
+	}
+	
+	
+	/**************************************************************
+	MultiBox v1.3
+	*/
+
+	#htmlElement {
+		padding: 10px;
+		background-color: #000;
+	}
+	.MultiBoxContainer {
+		position: absolute;
+		display: none;
+		border: 20px solid #EEE;
+		z-index: 100;
+		text-align: left;
+		/*overflow: hidden;*/
+	}
+	.MultiBoxLoading {
+		background: url(http://u1.ipernity.com/10/74/37/3517437.f451c893.gif) no-repeat center;
+	}
+	
+	.MultiBoxContent {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	.MultiBoxClose {
+		position: absolute;
+		top: -26px;
+		right: -26px;
+		background: url(http://u1.ipernity.com/10/74/40/3517440.7db0685f.png) no-repeat;
+		width: 24px;
+		height: 24px;
+		cursor: pointer;
+	}
+	
+	
+	.MultiBoxControlsContainer {
+		overflow: hidden;
+		height: 0px;
+		position: relative;
+	}
+	
+	.MultiBoxControls {
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: #EEEEEE;
+		display: none;
+	}
+	
+	
+	.MultiBoxPrevious {
+		position: absolute;
+		background: url(http://u1.ipernity.com/10/74/39/3517439.ce3e7f63.png) no-repeat;
+		width: 24px;
+		height: 24px;
+		left: 0px;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	
+	.MultiBoxNext {
+		position: absolute;
+		background: url(http://u1.ipernity.com/10/74/35/3517435.0056c31d.png) no-repeat;
+		width: 24px;
+		height: 24px;
+		right: 0px;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	
+	.MultiBoxNextDisabled {
+		cursor: default;
+		background: url(http://u1.ipernity.com/10/74/34/3517434.7839ed6d.png) no-repeat;
+	}
+	
+	.MultiBoxPreviousDisabled {
+		cursor: default;
+		background: url(http://u1.ipernity.com/10/74/38/3517438.bb04e0d7.png) no-repeat;
+	}
+	
+	.MultiBoxTitle {
+		position: relative;
+		margin: 10px 0 0 35px;
+		float: left;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #FFF;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.MultiBoxNumber {
+		position: relative;
+		width: 50px;
+		margin: 10px 35px 0 0;
+		float: right;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #FFF;
+		text-align: right;
+	}
+	
+	.MultiBoxDescription {
+		clear: left;
+		position: relative;
+		margin: 0 35px 0 35px;
+		padding-top: 5px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #FFF;
+		text-align: left;
+	}
+	/************************************************************
+	MultiBox End */ 

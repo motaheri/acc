@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#streampadBottomBar, ul#top-left, div#top-right, div.post-meta, div.music-player, p#credit {display:none;}
+div.music-poster{display:block;}
+
+div#container, div#bottom, div#footer {width:475px; margin: 0px auto 0px 5px;}
+
+div#onblack{top:0px;left:0px;}
+
+div.a-post img.permalink {
+	display: block;
+	filter:alpha(opacity=50); opacity: 0.5;  -moz-opacity:0.5; -khtml-opacity:0.5;
+}
