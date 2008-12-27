@@ -89,6 +89,12 @@ div.audio {
 	padding-bottom: 0px;
 	background-image: none;
 }
+p.information {
+	color: #757575;
+}
+p.information a {
+	color: #9A9A9A;
+}
 
 /* Multibox */
 .MultiBoxContainer {

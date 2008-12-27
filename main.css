@@ -147,10 +147,14 @@
 		text-decoration:none;
 		border:none;
 	}
-    div#menu a, div#header-image a, p.filter-posts a, p.author-link{
+    div#menu a, div#header-image a, .filter-posts a, p.author-link{
         text-decoration:none;
 		border:0pt;
 		padding:0pt;
+	}
+	.filter-posts {
+		display: block;
+		margin-top: -10px;
 	}
 	div#aboutDes {
 		width:155px;

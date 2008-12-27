@@ -10,12 +10,12 @@ function DmpError()
 window.onerror = DmpError;
 
 
-/* javascript hides google titles helpers and about description on load */
+/* javascript hides google title helpers and about description On Load */
 document.write('<style type="text/css">	.blind, .seo {display:none;visibility:hidden;}</style>');
 
 
 
-// iPhone / iPod users test
+// iPhone / iPod user test
 window.ifonTest = false;
 function ifon()
 {
@@ -42,7 +42,7 @@ function embedMp3(ea)
 
 
 
-/* Show Hide Basic Toggle script */
+/* Show Hide basic Toggle script */
 function popFade(divID)
 { // check if div is visible, if not make it visible
 	window.divToggleID = divID;
@@ -109,13 +109,13 @@ function initializePop(){
 		}
 	}
 }
-function shiftStyle(i) //shift to next style
+function shiftStyle(i) // shift to next style
 {
 		(i == styleArray.length-1)? i=0 : i++;
 		window.switchStyle = styleArray[i];
 		setActiveStyleSheet(window.switchStyle);
 }
-function whatsNext() //which style is next?
+function whatsNext() // which style is next?
 {
 		window.switchStyle = getActiveStyleSheet(); // where are we now?
 		var i = styleArray.indexOf(window.switchStyle,0,1); /* which number?*/
@@ -123,7 +123,7 @@ function whatsNext() //which style is next?
 		window.nextStyle = styleArray[i]; // next style
 }
 
-function toggleStyle(ile) //the toggle function
+function toggleStyle(ile) // the toggle function
 {	
 	if(styleArray.inArray(ile)) // if its a style call - check if style exists
 	{
@@ -153,7 +153,7 @@ function loadStyle() { // if so load it!
 	window.switchStyle = (window.styleCookie == undefined || window.styleCookie == "null") ?  getPreferredStyleSheet() : window.styleCookie;
 	setActiveStyleSheet(window.switchStyle);
 }
-window.onunload = function(e) { // save it on close window
+window.onunload = function(e) { // save it on window close
   var title = getActiveStyleSheet();
   createCookie("style", title, 365);
 }
@@ -187,7 +187,7 @@ return false;
 
 
 
-// set style, then set cookie so it will remember it for 365 days 
+// Set Style, then Set Cookie so it will remember it for 365 Days 
 // A List Apart http://www.alistapart.com/articles/alternate/
 function setActiveStyleSheet(title) {
   var i, a, main;
