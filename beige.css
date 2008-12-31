@@ -44,7 +44,9 @@ div.a-post h2 a:hover {
 }
 div#menu, div#aboutDes {
 }
-div.spacer {display:none;}
+img.spacer {
+	display:none;
+}
 img.filter-image {
 	background-image: url(http://u1.ipernity.com/10/85/75/3558575.3d57e1cf.gif);
 }

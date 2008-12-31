@@ -23,7 +23,7 @@ div#container {
 }
 div#header-image {
 	/*background-image:url(http://u1.ipernity.com/10/86/95/3558695.768e48e2.png);*/
-	background-image:url(http://u1.ipernity.com/10/07/48/3690748.a153b4fa.png);
+	background-image:url(http://u1.ipernity.com/10/70/11/3727011.9fa669db.png);
 }
 div#menu, div#aboutDes {
 	background-color: transparent;
@@ -37,6 +37,12 @@ div.a-post a {
 }
 div.a-post a:hover {
 	color:#fff;
+}
+div.quote .spacer {
+	height: 430px;
+}
+div.audio .spacer {
+	height: 460px;
 }
 img.filter-image {
 	background-image: url(http://u1.ipernity.com/9/80/60/3438060.50c62fda.gif);

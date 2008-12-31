@@ -24,7 +24,7 @@ div#container {
 }
 div#header-image {
 	/*background-image:url(http://u1.ipernity.com/10/86/95/3558695.768e48e2.png);*/
-	background-image:url(http://u1.ipernity.com/10/07/48/3690748.a153b4fa.png);
+	background-image:url(http://u1.ipernity.com/10/70/11/3727011.9fa669db.png);
 }
 h3 {
 	color: #eee;
@@ -43,7 +43,9 @@ div#menu, div#aboutDes {
 div#aboutDes a {
 	color:#824739;
 }
-div.spacer {display:none;}
+img.spacer {
+	display:none;
+}
 img.filter-image {
 	background-image: url(http://u1.ipernity.com/9/80/60/3438060.50c62fda.gif);
 }

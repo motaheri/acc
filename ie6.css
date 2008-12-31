@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body { behavior:url(http://dl.getdropbox.com/u/428209/csshover2.htc); }
+body { behavior:url(http://acollective.freehostia.com/csshover2.htc); }
 #menu, #aboutDes {background-color:#ABA688; background-image:none;}
 #followingList {background-color:#736E5B; background-image:none;}
 #followingButton {margin-top:-21px;} /* because of IE alert banner */
