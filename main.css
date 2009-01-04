@@ -327,12 +327,16 @@
 	
 	
 	/* Notes */
+	#notes {
+		display:none;
+	}
 	ol.notes {
 		border:none !important;
-		padding: 0px;
-		margin: 8px 0px;
+		margin:0px !important;
+		padding: 10px 0px;
 		list-style-type:none;
 		font-weight:normal !important;
+		text-align: left;
 	}
 	ol.notes a {
 		font-weight:normal;
