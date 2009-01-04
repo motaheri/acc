@@ -330,6 +330,9 @@
 	#notes {
 		display:none;
 	}
+	#notesCue {
+		display:none;
+	}
 	ol.notes {
 		border:none !important;
 		margin:0px !important;
@@ -578,9 +581,10 @@
 	}
 
 
-	/*** Safari Hacks ***/
+	/*** Safari / Chrome Hacks ***/
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
 		div#bottom a.prev-link, div#bottom a.next-link {line-height: 15px;}
+		#notesCue {display:block;}
 	}
 	
 	
