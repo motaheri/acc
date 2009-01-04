@@ -327,8 +327,7 @@
 	
 	
 	/* Notes */
-	#notes {
-		display:none;
+	#notesBox {
 		text-align: left;
 	}
 	#notesCue {
