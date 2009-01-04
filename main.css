@@ -331,7 +331,6 @@
 		padding: 0px;
 		margin: 25px 0px;
 		list-style-type:none;
-		border-bottom: solid 1px #DCDACD;
 		font-weight:normal !important;
 	}
 	ol.notes a {
@@ -348,7 +347,8 @@
 		color: #DCDACD !important;
 	}
 	ol.notes li.note {
-		border-top: solid 1px #ccc;
+		border:none !important;
+		border-bottom: 1px dotted #9B9380 !important;
 		padding: 6px 5px;
 		color: #251B0D;
 	}
