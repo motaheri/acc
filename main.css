@@ -2,13 +2,13 @@
 /* CSS Document */
 	
 	/**********************************************
-	Theme: Beige 0.9
-	Release date: 20 Dec 2008
+	Theme: Beige 0.95
+	Release date: 31 Dec 2008
 	Author:  Mohammad Taheri (http://pictor.us/)
 	Credit Due: Based on Heather River's (http://heather-rivers.com/) Black Tie (http://blacktie.tumblr.com/)
 	License: http://creativecommons.org/licenses/by-nc-sa/3.0/
-	Script hosting at: http://acollective.freehostia.com/
-		|Alternative script hosted at: http://github.com/motaheri/acc/raw/master/	
+	Script hosting at: http://github.com/motaheri/acc/raw/master/
+		|Alternative script hosted at: http://acollective.freehostia.com/
 		|2nd Alternative script hosted at (no caching): http://dl.getdropbox.com/u/428209/acc/	
 		|3rd Alternative Script hosting at (no caching): http://sites.google.com/site/acommoncollective/
 	Images hosted at: http://ipernity.com/
@@ -149,7 +149,7 @@
 		border:none;
 	}
 	div#menu li img{
-		padding:0px 33px 0px 8px; /* to give some link padding */
+		padding:0px 34px 0px 8px; /* to give some link padding */
 	}
     div#menu a, div#header-image a, .filter-posts a, p.author-link{
         text-decoration:none;
