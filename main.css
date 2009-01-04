@@ -329,6 +329,7 @@
 	/* Notes */
 	#notes {
 		display:none;
+		text-align: left;
 	}
 	#notesCue {
 		display:none;
@@ -339,7 +340,6 @@
 		padding: 10px 0px;
 		list-style-type:none;
 		font-weight:normal !important;
-		text-align: left;
 	}
 	ol.notes a {
 		font-weight:normal;
