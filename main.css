@@ -353,6 +353,9 @@
 		padding: 6px 5px;
 		color: #251B0D;
 	}
+	ol.notes li.note:hover {
+		background: #C5C0AA;
+	}
 	ol.notes img.avatar {
 		vertical-align: -7px;
 		margin-right: 8px;
