@@ -331,16 +331,26 @@
 		padding: 0px;
 		margin: 25px 0px;
 		list-style-type:none;
-		border-bottom: solid 1px #ccc;
+		border-bottom: solid 1px #DCDACD;
+		font-weight:normal !important;
 	}
 	ol.notes a {
 		font-weight:normal;
 		text-decoration:underline;
+		color: #251B0D !important;
 	}
-	
+	ol.notes p a {
+		font-weight:normal;
+		text-decoration:underline;
+		color: #251B0D !important;
+	}
+	ol.notes a:hover {
+		color: #DCDACD !important;
+	}
 	ol.notes li.note {
 		border-top: solid 1px #ccc;
 		padding: 6px 5px;
+		color: #251B0D;
 	}
 	ol.notes img.avatar {
 		vertical-align: -7px;
@@ -353,7 +363,7 @@
 		padding: 4px 10px;
 		margin: 7px 0px 0px 25px;
 		font-weight: normal;
-		border-left:5px solid;
+		border-left:5px solid #251B0D !important;
 	}
 	ol.notes blockquote a {
 		text-decoration: none;
