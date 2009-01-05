@@ -65,10 +65,7 @@ div#bottom {
 }
 
 /* Notes */
-ol.notes a {
-	color: #251B0D !important;
-}
-ol.notes p a {
+ol.notes a, ol.notes p a {
 	color: #251B0D !important;
 }
 ol.notes a:hover {
