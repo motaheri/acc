@@ -65,6 +65,9 @@ div#bottom {
 }
 
 /* Notes */
+#notesDes {
+	color: #844A3A;
+}
 ol.notes a, ol.notes p a {
 	color: #251B0D !important;
 }
