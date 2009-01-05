@@ -46,6 +46,8 @@
 	body:#251B0D
 	link:#824739
 	hover:#C30400
+	icons:#8A6B57
+	
 	*/
 
 	/* General */
@@ -115,7 +117,7 @@
 		text-align:right;
 		list-style:none;
 		text-decoration:none;
-		border:none
+		border:none;
 	}
 	#top-left img {
 		margin-right:-4px;
@@ -329,11 +331,12 @@
 	/* Notes */
 	#notesBox {
 		text-align:left;
+		padding-bottom:15px;
 	}
 	ol.notes {
 		border:none !important;
 		margin:0px !important;
-		padding: 10px 0px;
+		margin-top: 10px;
 		list-style-type:none;
 		font-weight:normal !important;
 	}
@@ -352,7 +355,7 @@
 	}
 	ol.notes li.note {
 		border:none !important;
-		border-bottom: 1px dotted #9B9380 !important;
+		border-bottom: 15px solid !important;
 		padding: 6px 5px;
 		color: #251B0D;
 	}
@@ -365,12 +368,13 @@
 		padding: 2px;
 		width: 16px;
 		height: 16px;
+		border:1px solid !important;
 	}
 	ol.notes blockquote {
 		padding: 4px 10px;
 		margin: 7px 0px 0px 25px;
 		font-weight: normal;
-		border-left:5px solid #251B0D !important;
+		border-left:5px solid !important;
 	}
 	ol.notes blockquote a {
 		text-decoration: none;

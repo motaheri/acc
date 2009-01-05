@@ -64,6 +64,31 @@ div#bottom {
 	background-position: 3px 30px;		
 }
 
+/* Notes */
+ol.notes a {
+	color: #251B0D !important;
+}
+ol.notes p a {
+	color: #251B0D !important;
+}
+ol.notes a:hover {
+	color: #C30400 !important;
+}
+ol.notes li.note {
+	color: #251B0D;
+	border-bottom-color: #A6A086 !important;
+}
+ol.notes li.note:hover {
+	background: #C5C0AA;
+}
+
+ol.notes img.avatar {
+	border-color:#8A6B57 !important;
+}
+ol.notes blockquote {
+	border-color:#251B0D !important;
+}
+
 /* Quote post */
 div.quote {
 	background-image: none;

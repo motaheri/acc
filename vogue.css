@@ -61,6 +61,30 @@ div#bottom {
 	background-position: 3px -4px;
 }
 
+/* Notes */
+ol.notes a {
+	color: #ccc !important;
+}
+ol.notes p a {
+	color: #251B0D !important;
+}
+ol.notes a:hover {
+	color: #fff !important;
+}
+ol.notes li.note {
+	color: #999;
+}
+ol.notes li.note:hover {
+	background: #222;
+	border-bottom-color: #111 !important;
+}
+ol.notes img.avatar {
+	border-color:#333 !important;
+}
+ol.notes blockquote {
+	border-color:#251B0D !important;
+}
+
 /* Quote post */
 div.quote {
 	background: url(http://u1.ipernity.com/10/67/00/3516700.e8e9c8d6.jpg) no-repeat 100px 0px;
