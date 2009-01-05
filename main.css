@@ -328,10 +328,7 @@
 	
 	/* Notes */
 	#notesBox {
-		text-align: left;
-	}
-	#notesCue {
-		display:none;
+		text-align:left;
 	}
 	ol.notes {
 		border:none !important;
