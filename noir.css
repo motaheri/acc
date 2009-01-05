@@ -114,6 +114,8 @@ div.chat ul span.label {
 div.audio {
 	padding-bottom: 0px;
 	background-image: none;
+	min-height:380px;
+	_height:380px;
 }
 p.information {
 	color: #757575;
