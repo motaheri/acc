@@ -532,11 +532,7 @@
 	div.audio {
 		padding-right: 15px;
 		margin-right: -15;
-		min-height: 150px;
 	} 
-	/* mac hide \*/
-	* html div.audio{height:150px}
-	/* end hide */
 	div.audio_player{z-index:10;}
 	div.music-poster{display:none;}
 	div#container, div#bottom, div#footer {
