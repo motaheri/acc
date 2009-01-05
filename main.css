@@ -503,7 +503,7 @@
 		margin-bottom:6px;
 	} 
 	div.photo div.the-image img {
-		margin:0 auto;
+		margin:5px auto;
 		width:100%;
 		max-width:430px;
 	}
@@ -535,7 +535,7 @@
 		padding-right: 15px !important;
 		margin-right: -15;
 	} 
-	div.audio_player{z-index:10;}
+	div.audio_player{z-index:10;margin:5px auto;}
 	div.music-poster{display:none;}
 	div#container, div#bottom, div#footer {
 		width:475px;
