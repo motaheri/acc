@@ -134,11 +134,11 @@ function initializePop(){
 window.notesToggled = 0;
 function showNotes()
 {
-	window.notesToggled++;
 	popFade('notesDes');
 	if (window.notesToggled == 0)
 	{
 		purpleInclude.run();
+		window.notesToggled++;
 	}
 }
 
