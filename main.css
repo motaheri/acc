@@ -257,7 +257,7 @@
 	}
 	img.spacer {position:absolute;top:0pt;visibility:hidden;float:left;}
 	div.post {
-		padding:20px 0px;
+		padding:20px 0px !important;
 		position:relative;
 		width:430px;
 		text-align: left;
