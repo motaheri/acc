@@ -335,11 +335,12 @@
 	}
 	#notesDes {
 		margin-top:5px;
+		vertical-align:text-bottom;
 	}
 	ol.notes {
 		border:none !important;
 		margin:0px !important;
-		margin-top: 10px;
+		margin-top: 10px !important;
 		list-style-type:none;
 		font-weight:normal !important;
 	}
@@ -366,7 +367,6 @@
 		background: #C5C0AA;
 	}
 	ol.notes img.avatar {
-		vertical-align: -7px;
 		margin-right: 8px;
 		padding: 2px;
 		width: 16px;
