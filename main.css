@@ -267,7 +267,9 @@
 		margin:.5em 0 1em 0;
 	} 
 	div.post blockquote {
-		margin-left:2em;
+		padding: 4px 10px;
+		margin: 10px 0px 10px 20px;
+		border-left:5px solid !important;
 	} 
 	div.post ol, div.post ul {
 		padding-left:2em;
@@ -381,7 +383,7 @@
 	}
 	ol.notes blockquote {
 		padding: 4px 10px;
-		margin: 7px 0px 0px 25px;
+		margin: 7px 0px 0px 20px;
 		font-weight: normal;
 		border-left:5px solid !important;
 	}

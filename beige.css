@@ -85,7 +85,7 @@ ol.notes li.note:hover {
 ol.notes img.avatar {
 	border-color:#8A6B57 !important;
 }
-ol.notes blockquote {
+ol.notes blockquote, div.post blockquote {
 	border-color:#251B0D !important;
 }
 
