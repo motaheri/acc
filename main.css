@@ -335,6 +335,8 @@
 	}
 	#notesDes {
 		margin-top:5px;
+	}
+	#notesDes img{
 		vertical-align:text-bottom;
 	}
 	ol.notes {
