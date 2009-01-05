@@ -400,3 +400,7 @@ if(!window.onload){
 	}
 }
 */
+if (document.getElementById('notesCue')) {
+	var obj = document.getElementById('notesCue');
+	obj.style.display = 'block';  
+}
