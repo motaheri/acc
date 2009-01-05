@@ -131,10 +131,15 @@ function initializePop(){
 }
 
 /* Show Notes using Purple Include */
+window.notesToggled = 0;
 function showNotes()
 {
+	window.notesToggled++;
 	popFade('notesDes');
-	purpleInclude.run();
+	if (window.notesToggled == 0)
+	{
+		purpleInclude.run();
+	}
 }
 
 
