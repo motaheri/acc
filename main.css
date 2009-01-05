@@ -153,7 +153,7 @@
 	div#menu li img{
 		padding:0px 34px 0px 8px; /* to give some link padding */
 	}
-    div#menu a, div#header-image a, .filter-posts a, p.author-link{
+	div#menu a, div#header-image a, .filter-posts a, p.author-link{
         text-decoration:none;
 		border:0pt;
 		padding:0pt;
@@ -289,8 +289,8 @@
 		width:100px;
 		height:100px;
 		position:absolute;
-		left:362px;
-		top:10px;
+		left:363px;
+		top:15px;
 		border:0 !important;
 		display: none;
 		z-index:30;
