@@ -329,11 +329,15 @@
 	
 	
 	/* Notes */
-	#notesBox {
-		text-align:left;
+	div#notesBox {
+		text-align:center;
 		padding-bottom:15px;
 	}
+	#notesCue {
+		text-align:left;
+	}
 	#notesDes {
+		text-align:left;
 		margin-top:5px;
 	}
 	#notesDes img{
