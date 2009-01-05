@@ -75,10 +75,10 @@ ol.notes a:hover {
 }
 ol.notes li.note {
 	color: #999;
+	border-bottom-color: #111 !important;
 }
 ol.notes li.note:hover {
 	background: #222;
-	border-bottom-color: #111 !important;
 }
 ol.notes img.avatar {
 	border-color:#333 !important;
