@@ -389,6 +389,7 @@ var purpleInclude = {
 
 //purpleInclude.addDOMLoadEvent(function() { purpleInclude.run(); });
 
+/* We're gonna call this onclick to save Bandwidth 
 if(!window.onload){
 	window.onload = function(){ purpleInclude.run(); }
 }else{
@@ -398,3 +399,4 @@ if(!window.onload){
 		oldOnload();
 	}
 }
+*/
