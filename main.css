@@ -335,14 +335,11 @@
 		text-align:center;
 		padding-bottom:15px;
 	}
-	#notesCue {
+	p#notesCue, div#notesDes {
 		text-align:left;
+		margin-bottom:5px;
 	}
-	#notesDes {
-		text-align:left;
-		margin-top:5px;
-	}
-	#notesDes img{
+	div#notesDes img{
 		vertical-align:text-bottom;
 	}
 	ol.notes {
