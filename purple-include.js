@@ -52,7 +52,7 @@ var purpleInclude = {
 	  //console.log('run');
 		this._handleMe = this._newLookupContainer();
 		this._rollerURL = this._getMeta("purple.include.rollerURL",
-										"http://codinginparadise.org/projects/purple-include/roller.gif");
+										"http://github.com/motaheri/acc/raw/master/roller.gif");
 		this._addressService = this._getMeta("purple.include.addressService",
 											"http://codinginparadise.org/purple_include/");	
 		// get any div, span, blockquote, pre, or q element that has an href
