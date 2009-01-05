@@ -333,6 +333,9 @@
 		text-align:left;
 		padding-bottom:15px;
 	}
+	#notesDes {
+		margin-top:5px;
+	}
 	ol.notes {
 		border:none !important;
 		margin:0px !important;
