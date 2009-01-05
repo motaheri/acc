@@ -6,7 +6,7 @@ div.photo div.the-image img {width:auto;}
 div.post-container img {width:auto;max-width:400px}
 div.quote {background-position:87px 0px;}
 span.curly {top:.13em;}
-div.audio {padding-right:1px;}
+div.audio {padding-right:1px;min-height:380px;}
 div.source {padding:30px 16px 10px 45px;margin: -30px -16px 0px 0px;}
 div#notesBox {width:400px}
 #credit{ filter:alpha(opacity=100); }
