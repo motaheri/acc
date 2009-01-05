@@ -117,7 +117,7 @@ function initializePop(){
 				popIt('followingPpl');  // show following
 				break;
 			case 'notes':
-				popIt('notesDes');  // show following
+				popIt('notesDes');  // show notes
 				break;
 			default:
 				if (styleArray.inArray(anchorId)){toggleStyle(anchorId);} // maybe it's a style call?
