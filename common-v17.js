@@ -115,8 +115,8 @@ function initializePop(){
 		switch(anchorId)
 		{ 
 			case 'about':
-				popIt('aboutDes'); // show about description
 				if (window.humm == true) {removeIt('posts');}
+				popIt('aboutDes'); // show about description
 				break;    
 			case 'following':
 				popIt('followingPpl');  // show following
