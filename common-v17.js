@@ -74,9 +74,9 @@ function popIt(divID)
 
 function removeIt(divID)
 {
-		var obj = document.getElementById(divID);
-		obj.style.visibility = 'hidden';
-		obj.style.display = 'none';
+	var obj = document.getElementById(divID);
+	obj.style.visibility = 'hidden';
+	obj.style.display = 'none';
 }
 /* function fadeIt(divID)
 {
@@ -115,8 +115,8 @@ function initializePop(){
 		switch(anchorId)
 		{ 
 			case 'about':
-				if (window.humm == true) {removeIt('posts');}
 				popIt('aboutDes'); // show about description
+				//if (window.humm == true) {removeIt('posts');}
 				break;    
 			case 'following':
 				popIt('followingPpl');  // show following
