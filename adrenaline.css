@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	background-color:#ABA688;
+	background-image: url(http://dl.getdropbox.com/u/428209/html-background.png);
+}
+body {
+	color:#251B0D;
+}
+div#container, div#bottom, div#footer {
+	width:475px;
+	margin: 0px auto 0px 320px;
+}
+a:link, a:visited {
+	color:#824739;
+}
+a:hover {
+	color:#C30400;
+}
+h1, h2, h3 {
+	color:#DCDACD;
+}
+div#container {
+	background:#ABA688;
+	background-image: none;
+	padding-top:100px;
+}
+div#wing {
+	position: fixed;
+	top: 0px;
+	left: 240px;
+	z-index: 30;
+	filter:alpha(opacity=45); opacity: 0.45;  -moz-opacity:0.45; -khtml-opacity:0.45;
+	zoom: 1;
+}
+div#nav-menu {
+	left:0px!important;
+	top: 0px;
+	position:fixed;
+	text-align:left;
+	left:480px;
+	color:#251B0D;
+	border-bottom-color:#64524D;
+	border-top: none;
+	z-index: 0;
+}
+div.post-container, div#aboutDes {
+	margin: 40px auto 10px auto;
+} 
+div.a-post {
+	color:#251B0D;
+}
+div.a-post a {
+	color:#34321D;
+}
+div.a-post a:hover {
+	color:#DCDACD;
+}
+div.a-post h2 a {
+	color:#DCDACD;
+}
+div.a-post h2 a:hover {
+	color:#fff;
+}
+div#menu, div#aboutDes {
+}
+div#aboutDes {
+	border-top: none;
+	color: #eee !important;
+	margin-left: 20px;
+	padding:15px;
+	padding-top: 165px;
+	z-index:30;
+	margin-top:-100px;
+	background: #8A6B57 url(http://dl.getdropbox.com/u/428209/about-background.png) no-repeat;
+	width:400px;
+	text-align:left;
+	border: none;
+	border-bottom: #555344 2px solid;
+	background-color: #8A6B57;
+	font-size: 12px;
+}
+div#aboutDes a {
+	color: #eee !important;
+	font-weight: normal;
+	border-bottom: #eee dotted 1px;
+}
+div#aboutDes a:hover {
+	color: #fff !important;
+	border-bottom: none;
+}
+img.spacer {
+	display:none;
+}
+img.filter-image {
+	background-image: url(http://u1.ipernity.com/10/85/75/3558575.3d57e1cf.gif);
+}
+img.filter-music {
+	background-image: url(http://u1.ipernity.com/10/85/74/3558574.6051a872.gif);
+}
+img.filter-author {
+	background-image: url(http://u1.ipernity.com/10/85/73/3558573.5cf137dc.gif);
+}
+div.post-meta {
+	width:200px;
+	left:470px;
+	text-align:left;
+	padding-left: 10px;
+}
+div.post-meta ul {
+	border:none;
+	border-left:1px dotted;
+	padding-left:10px;
+	border-color: #824739;
+}
+div#bottom {
+	background-image: url('http://u1.ipernity.com/10/85/70/3558570.7d22faa1.gif');
+	background-position: 3px 30px;		
+}
+
+/* Notes */
+#notesDes {
+	color: #844A3A;
+}
+ol.notes a, ol.notes p a {
+	color: #251B0D !important;
+}
+ol.notes a:hover {
+	color: #C30400 !important;
+}
+ol.notes li.note {
+	color: #251B0D;
+	border-bottom-color: #A6A086 !important;
+}
+ol.notes li.note:hover {
+	background: #C5C0AA;
+}
+
+ol.notes img.avatar {
+	border-color:#8A6B57 !important;
+}
+ol.notes blockquote, div.post blockquote {
+	border-color:#251B0D !important;
+}
+
+/* Quote post */
+div.quote {
+	background-image: none;
+	min-height:inherit;
+}
+/* mac hide \*/
+* html div.quote{height:inherit;}
+/* end hide */
+div.source {
+	color: #251B0D;
+}
+div.source a {
+	color: #34321D;
+}
+div.source a:hover {
+	color: #DCDACD;
+}
+
+/* Chat post */
+div.chat ul span.label {
+	color:#DCDACD;
+}
+
+/* Audio post */
+div.audio {
+	padding-bottom: 0px;
+	background-image: none;
+}
+p.information {
+	color: #454545;
+}
+p.information a {
+	color: #616161;
+}
+
+/* Multibox */
+.MultiBoxContainer {
+	background:#ABA688;
+}
+
+
+/*** Safari Hacks ***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	div#bottom {background-position: 3px 20px;}
+}

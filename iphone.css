@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-div#streampadBottomBar, ul#top-left, div#top-right, div.post-meta, div.music-player, p#credit {display:none;}
+div#streampadBottomBar, ul#top-left, div#top-right, div.post-meta, div.music-player, p#credit, #nav-menu {display:none;}
 div.music-poster{display:block;}
 
 div#container, div#bottom, div#footer {width:475px; margin: 0px auto 0px 5px;}
