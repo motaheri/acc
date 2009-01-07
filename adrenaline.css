@@ -3,6 +3,9 @@
 html, body {
 	background-color:#ABA688;
 	background-image: url(http://u1.ipernity.com/3/28/46/3812846.60b14921.1024.jpg);
+	background-position:190px 5px;
+	background-attachment: fixed;
+}
 }
 body {
 	color:#251B0D;
