@@ -10,5 +10,7 @@ div#onblack{top:0px;left:0px;}
 
 div.a-post img.permalink {
 	display: block;
-	filter:alpha(opacity=50); opacity: 0.5;  -moz-opacity:0.5; -khtml-opacity:0.5;
+	filter:alpha(opacity=50); opacity: 0.5;  -moz-opacity:0.5; -khtml-	opacity:0.5;
 }
+div#nav-menu {position: relative !important;}
+div#container {padding-top: 0px !important;} /*adrenaline*/
