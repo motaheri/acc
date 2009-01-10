@@ -546,6 +546,12 @@
 	}
 
 
+	/* Video Post */
+	.video embed {
+		margin: 5px auto;
+	}
+
+
 	/* StreamPad */
 	div#streampadBottomBar, div#streampadDrawer {
 		z-index: 2000; /* Tumblr Buttons on top right are at 1337 */
