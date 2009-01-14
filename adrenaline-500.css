@@ -24,5 +24,8 @@ div#bottom {
 div.post-meta {
 	width:200px;
 	position:absolute;
-	left:-205px;
+	left:560px;
+}
+#credit-public{
+	padding:25px 0px 15px 0px;
 }
