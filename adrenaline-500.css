@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.post {
+	width:500px;
+} 
+div.photo div.the-image img {
+	width:100%;
+	max-width:500px;
+}
+div.post-container img {
+	max-width:500px;
+}	
+div#container, div#bottom, div#footer {
+	width:545px;
+	margin: 0px auto 0px 320px;
+}
+div#aboutDes {
+	width:500px;
+}
+div#bottom {
+	background-position: 33px 30px;		
+}
+div.post-meta {
+	width:200px;
+	position:absolute;
+	left:-205px;
+}
