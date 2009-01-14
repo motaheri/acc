@@ -223,7 +223,8 @@
 
 
 
-    <!-- part 2/4: Write a short description about yourself, add other links to social networks you have. Write in html please! :)
+    <!-- part 2/4: Write a short description about yourself under the stars, add other links that to social networks you have. 
+    			   There is a generic example included. Write in html please! :)
 	/**********************************************
 	
     <p>WRITE IT HERE</p>
