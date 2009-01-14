@@ -19,13 +19,20 @@ div#aboutDes {
 	width:500px;
 }
 div#bottom {
-	background-position: 33px 30px;		
+	background-position: 93px 30px;		
 }
 div.post-meta {
 	width:200px;
 	position:absolute;
 	left:560px;
 }
+div.a-post img.permalink {
+		left:465px;
+}
+
+
+
+/* for public  */
 #credit-public{
 	padding:25px 0px 15px 0px;
 }
