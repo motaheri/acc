@@ -344,7 +344,7 @@
 					
 			  		{block:Video}
 			  			<div class="post video {TagsAsClasses}">
-			  			{Video-400}
+			  			{Video-500}
 			  			{block:Caption}
 			  				<div class="caption">{Caption}</div>
 			  			{/block:Caption}
