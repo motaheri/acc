@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.a-post {padding: 0px 36px;} 
+div.photo div.the-image img {width:auto;}
+div.post-container img {width:auto;max-width:500px}
+div.quote {background-position:87px 0px;}
+span.curly {top:.13em;}
+div.audio {padding-right:1px;}
+div.source {padding:30px 16px 10px 45px;margin: -30px -16px 0px 0px;}
+div.a-post, div#notesBox {width:500px}
+#credit{ filter:alpha(opacity=100); }

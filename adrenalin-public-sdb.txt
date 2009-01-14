@@ -134,7 +134,7 @@
     <meta name="viewport" content="width=480">
 	<!-- IE Alternative, because IE has jagged edges on resized photos, also look in image post for alternative image file -->
 	<!--[if IE]>
-		<link href="http://github.com/motaheri/acc/raw/master/ie.css" rel="stylesheet" type="text/css">
+		<link href="http://github.com/motaheri/acc/raw/master/ie-500.css" rel="stylesheet" type="text/css">
 	<![endif]-->
 	<!--[if lt IE 7]>
 		<link href="http://github.com/motaheri/acc/raw/master/ie6.css" rel="stylesheet" type="text/css">
