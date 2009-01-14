@@ -29,8 +29,9 @@ div.post-meta {
 div.a-post img.permalink {
 		left:465px;
 }
-
-
+#bottom, #footer{
+	margin: 0px auto 0px 360px !important;
+}
 
 /* for public  */
 #credit-public{

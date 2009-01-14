@@ -1,0 +1,479 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- FOLLOW THE STARS TO EDIT THIS THEME... Nothing to do here, move on please! :)
+	/**********************************************
+	Theme: Adrenaline 0.95
+	Release date: 31 Dec 2008
+	Author:  Mohammad Taheri (http://pictor.us/)
+	License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+	Script hosting at: http://github.com/motaheri/acc/raw/master/
+	Images hosted at: http://ipernity.com/
+	/**********************************************
+-->
+<html id="htmlID">
+<head>
+<title>{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:PreviousPage}Page {CurrentPage} | {/block:PreviousPage}{block:DayPage}{ShortMonth} {DayOfMonth}, {Year} | {block:DayPage}{Title}{block:IndexPage}{block:Description} - {Description}{/block:Description}{/block:IndexPage}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="keywords" content="literature, quotes, poems, stanza, writings, photography, digital photography, photo, music, songs, art, artists, flickr, blog, tumblr" >
+	<meta name="description" content="{Description}" >
+	<meta name="author" content="{Title}" >
+	<meta name="Copyright" content="Copyright (c) {Title} - all rights reserved for all respectful authors and artists" >
+	<meta name="robots" content="all" >
+	<meta http-equiv="imagetoolbar" content="no" >
+	<meta name="MSSmartTagsPreventParsing" content="true" >
+	<link rel="icon" href="{Favicon}" >
+	<link rel="Shortcut Icon" href="{Favicon}" type="image/x-icon" >
+	<link rel="apple-touch-icon" href="{PortraitURL-128}" >
+	<link rel="alternate" type="application/rss+xml" href="{RSS}" >
+	<style type="text/css">
+	<!--
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	/* Yahoo min-reset http://yui.yahooapis.com/2.6.0/build/reset/reset-min.css */
+	html{color:#000;background:#FFF;}
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;padding:0;}
+	table{border-collapse:collapse;border-spacing:0;}
+	fieldset,img{border:0;}
+	address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+	li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+	q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}
+	sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+	input,textarea,select{*font-size:100%;}legend{color:#000;}del,ins{text-decoration:none;}
+	html, body {background-color:#ABA688;}
+	html { /* Force vertical scrollbar */
+		overflow-y: scroll;
+		height: 100%;
+		margin-bottom: .0001em;
+		z-index: 0;
+		text-align:center;
+	}
+	body {
+		font-family:"Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		line-height:1.8;
+	}
+	a:link, a:visited {
+		text-decoration:none;
+		font-weight:bold;/* border-bottom:1px dotted #ccc; */
+		}
+	a:hover {
+		text-decoration: none;
+	}
+	a img {
+		border:0 !important;
+	}
+	h1, h2, h3 {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:normal;
+		letter-spacing:-.05em;
+		line-height:1em;
+	}
+	div.alert {
+		width:100%;
+		background:#FFFFD3;
+		color:#333;
+		text-align: center;
+		z-index: 100;
+	}
+	div.alert a {
+		color:#111;
+		text-decoration:underline;
+	}
+	div.a-post:hover img.permalink {
+		display: block;
+	}
+{block:PermalinkPage}
+	div.a-post:hover img.permalink {display:none;}
+{/block:PermalinkPage}
+{block:DayPage}
+	span.date-anchor {visibility:hidden;}
+{/block:DayPage}
+	
+	/* Quick hack heaven */
+
+{CustomCSS}
+	 
+	-->
+	</style>
+    <script type="text/JavaScript" charset="utf-8">
+		/* <![CDATA[ */
+		var window.humm = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="http://github.com/motaheri/acc/raw/master/common-v17.js"></script>
+	<script type="text/JavaScript" charset="utf-8">
+		/* <![CDATA[ */
+		seoHide();
+		/* ]]> */
+	</script>
+	<link href="http://github.com/motaheri/acc/raw/master/main.css" rel="stylesheet"  type="text/css">                    <!-- main  -->
+	<link href="http://github.com/motaheri/acc/raw/master/adrenaline.css"   rel="stylesheet"  type="text/css" title="adrenaline"> <!-- adrenaline -->
+    <link href="http://github.com/motaheri/acc/raw/master/adrenaline-500.css"   rel="stylesheet"  type="text/css" title="adrenaline"> <!-- 500 pixel version -->
+	<link media="only screen and (max-device-width: 545px)" 
+    href="http://github.com/motaheri/acc/raw/master/iphone.css" type="text/css" rel="stylesheet"> <!-- iphone -->
+    <meta name="viewport" content="width=480">
+	<!-- IE Alternative, because IE has jagged edges on resized photos, also look in image post for alternative image file -->
+	<!--[if IE]>
+		<link href="http://github.com/motaheri/acc/raw/master/ie.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link href="http://github.com/motaheri/acc/raw/master/ie6.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<script type="text/JavaScript" charset="utf-8">
+		/* <![CDATA[ */
+		//loadStyle();
+		//chromeStyle(is_chrome);
+		/* ]]> */
+	</script>
+</head>
+ 
+<body id="bodyID">
+	<!--[if lt IE 7]>
+	<div class="alert">
+		<p>Very sorry, your browser "Internet Explorer" <b>will not show this website properly</b>,<br>because it is older than the code used to make modern websites today</p>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 7]>
+	<div class="alert">
+		<p>Please switch to <a target="_blank" href="http://mozilla.com/firefox">Firefox <img height="10" width="10" src="http://u1.ipernity.com/10/24/92/3532492.47cc1702.gif" alt=""></a>, <a target="_blank" href="http://apple.com/safari/download">Safari <img height="10" width="10" src="http://u1.ipernity.com/10/24/92/3532492.47cc1702.gif" alt=""></a> or <a target="_blank" href="http://google.com/chrome">Chrome <img height="10" width="10" src="http://u1.ipernity.com/10/24/92/3532492.47cc1702.gif" alt=""></a> to Experience this website in its Fullest, Thank You!</p>
+	</div>
+	<![endif]-->
+	<noscript>
+		<div class="alert">
+			<p>Please <a title="how?" target="_blank" href="http://www.google.com/adsense/support/bin/answer.py?hl=en&answer=12654">Turn-On JavaScript</a> to Ensure you Experience this website as it was meant to be, Thank You!</p>
+		</div>
+        <style type="text/css"><!-- .seo{display:none;} --></style>
+	</noscript>
+    
+    <!-- Header Title for Search Engines -->
+	<h1 class="seo"><a href="/" title="{Title}{block:Description} - {Description}{/block:Description}">{Title}</a></h1>
+	<div id="nav-menu">
+        <img name="menu" src="http://u1.ipernity.com/4/65/07/3896507.468020c4.gif" width="887" height="490" id="menu" usemap="#m_menu" alt="{Title}{block:Description} - {Description}{/block:Description}" />
+        <map name="m_menu" id="m_menu">
+        <area shape="poly" coords="0,46,240,46,240,190,0,190,0,46" href="/" alt="" title="{Title}" />
+        <area shape="rect" coords="0,190,240,256" href="/archive" alt="" title="all posts" />
+        <area shape="poly" coords="0,256,240,256,240,291,0,291,0,256" href="/random" alt="" title="give me something new" />
+		<area shape="poly" coords="0,291,240,291,240,334,0,334,0,291" href="{RSS}" alt="" title="syndicated updates" />
+        <area shape="poly" coords="130,448,290,448,290,490,130,490,130,448" href="#about" alt="" title="about me" id="aboutLink" onclick="popFade('aboutDes');popFade('posts');" />
+
+<!-- part 1/4: Add your OWN website link and flickr link
+	/**********************************************
+	
+    Replace 
+    http://pictor.us/
+    with your website address
+    
+    Replace 
+    http://flickr.com/sorrenta/
+    with your flickr address
+    
+   	/**********************************************
+-->     
+        <area shape="poly" coords="130,364,290,364,290,406,130,406,130,364" alt="" title="my website" href="http://pictor.us/" />
+        <area shape="poly" coords="130,406,290,406,290,448,130,448,130,406" alt="" title="my flickr" href="http://flickr.com/sorrenta/" />
+        </map>
+        <div class="seo">{block:Description}<p>{Description}&nbsp;</p>{/block:Description}</div>
+	</div>
+    
+	<div id="container">
+      <!--  <div id="wing">
+            <img alt="" src="http://dl.getdropbox.com/u/428209/wing.png" height="170" width="227" >
+        </div>
+        -->
+  	<div id="header">	
+        <div id="about">
+            <div id="aboutDes">
+            
+            
+            
+    <!-- part 2/4: Write a short description about yourself, add other links that to social networks you have. Write in html please! :)
+	/**********************************************
+	
+    <p>WRITE IT HERE</p>
+    <p>New Line</p>
+    <p>third line</p>
+    
+   	/**********************************************
+    -->
+    
+                <p>Hello I love tumblr more than free music and i'm using the <a href="http://adrenaline.tumblr.com/post/68902291/">Adrenaline</a> tumblr theme. I have a <a href="http://last.fm/">last.fm account</a> too.</p>
+                <p>Follow me!</p>
+                
+                
+           
+             
+                
+            </div> <!-- aboutDes -->
+		</div>
+
+		</div> 
+<!-- header -->
+			
+			{block:TagPage}
+			<div class="subtitle">
+				<h2><span class="none">All posts tagged "{Tag}"</span></h2>
+			</div>
+			{/block:TagPage}
+	
+
+			{block:DayPage}
+			<div class="subtitle">
+				<h2>All posts from {Month} {DayOfMonth}, {Year}</h2>
+			</div>
+			{/block:DayPage}
+
+
+		<div id="posts">
+        <script type="text/JavaScript" charset="utf-8">
+			/* <![CDATA[ */
+			// show aboutDes or following if the anchor is set to #about or #following on load.
+			initializeHide();
+			/* ]]> */
+		</script>
+			{block:Posts}
+			<div class="post-container">
+				<div class="a-post">
+                	<h2 class="seo"><a class="post-title" href="{Permalink}">&mdash; {block:Title}{Title} : {/block:Title} {PhotoAlt} {Source} {Quote} {Name}</a></h2>
+					<a href="{Permalink}" title="Reblog, Heart, Permalink..">
+					<img src="http://u1.ipernity.com/10/96/47/3509647.099ae080.gif" class="permalink" alt="Reblog, Heart, Permalink.."></a>
+
+
+					{block:Text}
+						<div class="post text {TagsAsClasses}">
+                        
+                            {block:Title}
+                            <h2><a href="{Permalink}">{Title}</a></h2>
+                            {/block:Title}
+                            
+                            <p>{Body}</p>					
+					
+						</div>
+					{/block:Text}
+		
+		
+					{block:Photo}
+						<div class="post photo {TagsAsClasses}">
+				
+                			<div class="the-image">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}</div>
+				
+                			{block:Caption}
+								<div class="caption">
+								<p>{Caption}</p>
+								</div>
+							{/block:Caption}
+
+						</div> <!-- post photo -->
+					{/block:Photo}
+						
+					{block:Quote}
+						<div class="post quote">
+							<img class="spacer" src="http://u1.ipernity.com/10/51/12/3515112.51f7292d.gif" width="1" alt="">
+					  		<h3 class="{Length}"><span class="curly">&lsquo;&lsquo;</span>{Quote}&rdquo;</h3>
+							{block:Source}<div class="source">&mdash;{Source}</div>{/block:Source}
+                    	</div>
+					{/block:Quote}
+		
+		
+					{block:Link}
+						<div class="post link {TagsAsClasses}">
+								<h2><a href="{URL}" class="link" {Target}>{Name} &raquo;</a></h2>
+							{block:Description}
+								<div class="description"><p>{Description}</p></div>
+							{/block:Description}
+                            
+                    	</div>
+		            {/block:Link}
+					
+				  	
+			  		{block:Chat}
+			  			<div class="post chat {TagsAsClasses}">
+                            {block:Title}
+                            <h2><a href="{Permalink}">{Title}</a></h2>
+                            {/block:Title}
+                            
+							<ul>
+                                {block:Lines}
+                                    <li class="{Alt} user_{UserNumber}">
+                                        {block:Label}
+                                            <span class="label">{Label}</span>
+                                        {/block:Label}
+                                        {Line}
+                                    </li>
+                                {/block:Lines}
+                            </ul>
+			  			</div>
+			  		{/block:Chat}
+					
+			  		{block:Video}
+			  			<div class="post video {TagsAsClasses}">
+			  			{Video-400}
+			  			{block:Caption}
+			  				<div class="caption">{Caption}</div>
+			  			{/block:Caption}
+						</div>
+			  		{/block:Video}
+		
+			  		{block:Audio}
+			  			<div class="post audio">
+							<img class="spacer" src="http://u1.ipernity.com/10/51/12/3515112.51f7292d.gif" width="1" alt="">
+			  				<div class="music-player">{AudioPlayerGrey}</div>
+                        		{block:ExternalAudio}
+									<script type="text/JavaScript" charset="utf-8">
+                                    /* <![CDATA[ */
+                                        embedMp3('{ExternalAudioURL}');
+                                    /* ]]> */
+                                    </script>
+                        		{/block:ExternalAudio}	  		
+                        
+							<div class="clear">&nbsp;</div>
+					  		<div class="caption">
+					  			{block:Caption}
+									<p>{Caption}</p>
+								{/block:Caption}
+					  			<p class="information">{block:ExternalAudio}<a href="{ExternalAudioURL}" title="click here to download this music mp3">Download</a><br>{/block:ExternalAudio}Listened to {FormattedPlayCount} times</p>
+
+					  		</div>
+						</div>
+			  		{/block:Audio}
+                    
+                        <!-- Part 3/4: Disqus Comments; put the code bellow in the vast empty space under the stars for Disqus comments 
+                        If you don't want Disqus comments you're done editing this theme!
+                        /**********************************************
+                        
+                        
+						<div style="font-size: 10px; text-align: left;">
+							<a href="{Permalink}#disqus_thread">Comments (View)</a>
+						</div>
+                        
+                        
+                        /**********************************************
+                        -->  
+
+
+
+
+
+
+
+
+
+						<p style="clear: both;"></p>
+						<!--[if lte IE 5 ]><br /><br /><![endif]-->	
+					</div> <!-- a-post -->	
+				  		<div class="post-meta">
+						  		<ul>
+						  			<li class="post-date"><span class="date-anchor"><a href="/day/{Year}/{MonthNumberWithZero}/{DayOfMonthWithZero}/" class="date">{DayOfMonth} {ShortMonth} '{ShortYear}</a></span>{block:DayPage} <a href="{Permalink}" title="Reblog, Heart, Permalink..">{TimeAgo}</a>{/block:DayPage}</span></li>
+		   			
+						  			{block:HasTags}	
+						  				<li>Tags:</li>
+						  				{block:Tags}
+						  					<li><a href="{TagURL}">{Tag}</a></li>
+						  				{/block:Tags}
+						  			{/block:HasTags}
+						  			{block:RebloggedFrom}
+						  				<li>Via:</li>
+						  				<li><a title="reblogged from {ReblogParentName}" href="{ReblogParentURL}">{ReblogParentName}</a></li>
+						  			{/block:RebloggedFrom}
+						  		</ul>
+				  		</div> <!-- post-meta -->
+			</div> 
+	  <!-- post-container -->
+			{/block:Posts}
+	
+	</div> <!-- posts -->
+</div> <!-- container -->
+
+
+<div id="bottom">
+	
+	<!-- Page Pagination -->
+	{block:Pagination}
+	<ul>
+	{block:PreviousPage}
+		<li><a href="{PreviousPage}" class="prev-link" title="Next Page">&#171;<br><span 
+        class="link-guide">&nbsp;{block:NextPage}newer{/block:NextPage}</span></a></li>
+	{/block:PreviousPage}
+	
+	{block:NextPage}
+		<li><a href="{NextPage}" class="next-link" title="Previous Page">&#187;<br><span 
+        class="link-guide">{block:PreviousPage}older{/block:PreviousPage}&nbsp;</span></a></li>
+	{/block:NextPage}
+	</ul>
+	{/block:Pagination}
+	
+	<!-- Day Pagination -->	
+	{block:DayPagination}
+	<ul>
+	{block:NextDayPage}
+		<li><a href="{NextDayPage}" class="prev-link" title="Next Day">&#171;<br><span 
+        class="link-guide">&nbsp;{ShortMonth} {DayOfMonth}</span></a></li>
+	{/block:NextDayPage}
+
+   	{block:PreviousDayPage}
+		<li><a href="{PreviousDayPage}" class="next-link" title="Previous Day">&#187;<br><span 
+        class="link-guide">{ShortMonth} {DayOfMonth}&nbsp;</span></a></li>
+	{/block:PreviousDayPage}
+	</ul>
+	{/block:DayPagination}
+	
+	<!-- Permalink Pagination -->	
+	{block:PermalinkPagination}
+	<ul>
+	{block:NextPost}
+		<li><a href="{NextPost}" class="prev-link" title="Next Post">&#171;<br><span 
+        class="link-guide">&nbsp;{block:PreviousPost}newer{/block:PreviousPost}</span></a></li>
+	{/block:NextPost} 
+
+	{block:PreviousPost}
+		<li><a href="{PreviousPost}" class="next-link" title="Previous Post">&#187;<br><span 
+        class="link-guide">{block:NextPost}older{/block:NextPost}&nbsp;</span></a></li>
+	{/block:PreviousPost}
+	</ul>
+	{/block:PermalinkPagination} 
+
+
+</div> <!-- bottom -->
+
+<div id="footer">
+	<p id="credit-public">the <a href="http://adrenaline.tumblr.com/post/68902291">adrenaline theme</a> beats on <a href="http://tumblr.com/">Tumblr</a> + <a href="http://ipernity.com/">iPernity</a> + <a href="http://github.com/">github</a>
+	</p>
+</div> <!-- footer -->
+
+<!-- Bottom Music Player Script -->
+<script type="text/javascript" src="http://static.streampad.com/streampad-tumblr.js?clicktext=play%20music%20posts&amp;clickimg=true"></script>
+
+
+
+{block:PermalinkPage} 
+
+<!-- Disqus Comments; if you're adding them.
+/**********************************************
+
+Add the Disqus code part 3 in the vast empty space under the stars.
+Get the code from here:
+http://disqus.com/integrate/
+
+You're DONE!!! :D enjoy
+/**********************************************
+-->  
+
+
+
+
+
+
+
+
+
+
+{/block:PermalinkPage} 
+<!--[if lt IE 7]>
+		<script defer type="text/javascript" src="http://github.com/motaheri/acc/raw/master/pngfix.js"></script>
+		<script defer type="text/javascript" src="http://github.com/motaheri/acc/raw/master/fixed.js"></script>
+<![endif]-->
+<!-- End of Theme Code -->
+</body>
+</html>
+
