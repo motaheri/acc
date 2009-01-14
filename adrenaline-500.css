@@ -12,25 +12,25 @@ div.post-container img {
 	max-width:500px;
 }	
 div#container, div#bottom, div#footer {
-	width:545px;
+	width:500px;
 	margin: 0px auto 0px 320px;
 }
 div#aboutDes {
 	width:500px;
 }
 div#bottom {
-	background-position: 35px 30px;		
+	background-position: 15px 30px;		
 }
 div.post-meta {
 	width:200px;
 	position:absolute;
-	left:560px;
+	left:540px;
 }
 div.a-post img.permalink {
-		left:465px;
+	left:445px;
 }
 #bottom, #footer{
-	margin: 0px auto 0px 360px !important;
+	margin: 0px auto 0px 350px !important;
 }
 
 /* for public  */
