@@ -186,7 +186,7 @@
 
 
 
-<!-- part 1/4: Add your OWN website link and flickr link
+<!-- part 1/4: Add your OWN Website-link and flickr-link
 	/**********************************************
 	
     Replace 
@@ -223,7 +223,7 @@
 
 
 
-    <!-- part 2/4: Write a short description about yourself, add other links that to social networks you have. Write in html please! :)
+    <!-- part 2/4: Write a short description about yourself, add other links to social networks you have. Write in html please! :)
 	/**********************************************
 	
     <p>WRITE IT HERE</p>
@@ -502,7 +502,7 @@
 
 
 
-<!-- Disqus Comments; if you're adding them.
+<!-- Disqus Comments again; if you're adding them.
 /**********************************************
 
 Add the Disqus code part 3 in the vast empty space under the stars.
