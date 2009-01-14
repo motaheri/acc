@@ -1,4 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
 <!-- FOLLOW THE STARS TO EDIT THIS THEME... Nothing to do here, move on please! :)
 	/**********************************************
 	Theme: Adrenaline 0.95
@@ -9,6 +17,16 @@
 	Images hosted at: http://ipernity.com/
 	/**********************************************
 -->
+
+
+
+
+
+
+
+
+
+
 <html id="htmlID">
 <head>
 <title>{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:PreviousPage}Page {CurrentPage} | {/block:PreviousPage}{block:DayPage}{ShortMonth} {DayOfMonth}, {Year} | {block:DayPage}{Title}{block:IndexPage}{block:Description} - {Description}{/block:Description}{/block:IndexPage}</title>
@@ -158,6 +176,16 @@
 		<area shape="poly" coords="0,291,240,291,240,334,0,334,0,291" href="{RSS}" alt="" title="syndicated updates" />
         <area shape="poly" coords="130,448,290,448,290,490,130,490,130,448" href="#about" alt="" title="about me" id="aboutLink" onclick="popFade('aboutDes');popFade('posts');" />
 
+
+
+
+
+
+
+
+
+
+
 <!-- part 1/4: Add your OWN website link and flickr link
 	/**********************************************
 	
@@ -185,9 +213,16 @@
   	<div id="header">	
         <div id="about">
             <div id="aboutDes">
-            
-            
-            
+
+
+
+
+
+
+
+
+
+
     <!-- part 2/4: Write a short description about yourself, add other links that to social networks you have. Write in html please! :)
 	/**********************************************
 	
@@ -337,7 +372,16 @@
 					  		</div>
 						</div>
 			  		{/block:Audio}
-                    
+
+
+
+
+
+
+
+
+
+
                         <!-- Part 3/4: Disqus Comments; put the code bellow in the vast empty space under the stars for Disqus comments 
                         If you don't want Disqus comments you're done editing this theme!
                         /**********************************************
@@ -447,6 +491,16 @@
 
 
 {block:PermalinkPage} 
+
+
+
+
+
+
+
+
+
+
 
 <!-- Disqus Comments; if you're adding them.
 /**********************************************
