@@ -32,6 +32,10 @@ div.a-post img.permalink {
 #bottom, #footer{
 	margin: 0px auto 0px 350px !important;
 }
+div.subtitle h2 {
+	margin-left:30px;
+	width:500px;
+}
 
 /* for public  */
 #credit-public{
