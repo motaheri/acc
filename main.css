@@ -597,6 +597,9 @@
 		zoom: 1;
 		filter:alpha(opacity=100); opacity: 1.0;  -moz-opacity:1.0; -khtml-opacity:1.0;
 	}
+	div#streampadVolDiv {
+		width:59px !important;
+	}
 
 
 	/*** Safari / Chrome Hacks ***/
