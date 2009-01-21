@@ -199,7 +199,7 @@
     
    	/**********************************************
 -->     
-        <area shape="poly" coords="130,364,290,364,290,406,130,406,130,364" alt="" title="my website" href="http:/serenaboggs.com/" />
+        <area shape="poly" coords="130,364,290,364,290,406,130,406,130,364" alt="" title="my website" href="http://serenaboggs.com/" />
         <area shape="poly" coords="130,406,290,406,290,448,130,448,130,406" alt="" title="my flickr" href="http://flickr.com/partyof5/" />
         </map>
         <div class="seo">{block:Description}<p>{Description}&nbsp;</p>{/block:Description}</div>
