@@ -133,10 +133,9 @@ function initializePop(){
 
 /* Show Notes using Purple Include */
 window.notesToggled = 0;
-function showNotes(id)
+function showNotes()
 {
-	noteID = 'note-'+ id;
-	popFade(noteID);
+	popFade('notesDes');
 	if (window.notesToggled == 0)
 	{
 		purpleInclude.run();
