@@ -75,7 +75,7 @@ var purpleInclude = {
 				e.innerHTML = '<img width="16" height="16" '
 								+ 'style="width: 16px !important; height: 16px !important;" '
 								+ 'class="include_roller" '
-								+ 'src="' + this._getRollerPath() + '" />';
+								+ 'src="' + this._getRollerPath() + '" /> loading notes';
 				this._handleMe.add(href, e);
 			}
 		}
