@@ -315,15 +315,19 @@
 		left:-205px;
 		top:6px;
 		text-align:right;
-		color:#EEEDE7;
+		color:#dddcE7;
 		padding-top:20px;
 		line-height: 9pt;
 		padding-right: 10px;
 	}
 	div.post-meta a {
+		color:#787355;	
 		font-weight: normal;
 		border:0 !important;	
 	} 
+	div.post-meta a:hover {
+		color:#565133;
+	}
 	div.post-meta ul {
 		list-style:none;
 		padding-bottom: 50px;
