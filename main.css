@@ -345,7 +345,11 @@
 		text-align:center;
 		padding-bottom:15px;
 	}
-	li#notesCue, div#notesDes {
+	li#notesCue {
+		margin-top:3px;
+		display: none;
+	}
+	div#notesDes {
 		text-align:left;
 		margin-bottom:5px;
 		display: none;
