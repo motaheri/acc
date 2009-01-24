@@ -327,8 +327,11 @@
 	div.post-meta ul {
 		list-style:none;
 		padding-bottom: 50px;
-		border-right:1px dotted;
+		/* border-right:1px dotted;
 		padding-right:10px;
+		*/
+		border:none;
+		padding-right:11px;
 	} 
 	li.post-date {
 		padding: 3px 0px 3px 0px;
@@ -345,8 +348,20 @@
 		text-align:center;
 		padding-bottom:15px;
 	}
-	li#notesCue {
-		margin-top:3px;
+	li#notesCue{
+		margin-top:5px;
+		border-top:1px solid #9a9577;
+		width:44px;
+		text-align:right!important;
+		float:right;
+		padding-top:1px!important;
+	}
+	li#notesCue a{
+		padding:0px 1px 1px 1px;	
+	}
+	li#notesCue a:hover{
+		background: #bcb799;
+		color: #fff;
 	}
 	div#notesDes {
 		text-align:left;
