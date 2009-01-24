@@ -348,7 +348,7 @@
 	p#notesCue, div#notesDes {
 		text-align:left;
 		margin-bottom:5px;
-		display: none;
+		/*display: none;*/
 	}
 	div#notesDes img{
 		vertical-align:text-bottom;
