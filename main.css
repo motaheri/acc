@@ -349,14 +349,10 @@
 		padding-bottom:15px;
 	}
 	li#notesCue{
-		margin-top:5px;
-		border-top:1px solid #9a9577;
-		width:45px;
-		text-align:right!important;
-		float:right;
-		padding-top:1px!important;
+		margin-top:18px;
 	}
 	li#notesCue a{
+		border-top:1px solid #9a9577 !important;
 		padding:0px 1px 1px 1px;	
 	}
 	li#notesCue a:hover{
