@@ -575,7 +575,7 @@
 
 
 	/* Video Post */
-	.video object {
+	.video object embed {
 		margin: 5px auto;
 	}
 
