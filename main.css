@@ -352,7 +352,7 @@
 		text-align:center;
 		padding-bottom:15px;
 	}
-	li#notesCue{
+	li#notesCue, li#notesHide{
 		margin-top:18px;
 	}
 	li#notesCue a, li#notesHide a{
