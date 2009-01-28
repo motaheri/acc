@@ -355,14 +355,20 @@
 	li#notesCue{
 		margin-top:18px;
 	}
-	li#notesCue a{
+	li#notesCue a, li#notesHide a{
 		border-top:1px solid #9a9577 !important;
 		padding:0px 1px 1px 1px;	
+	}
+	li#notesHide a{
+		color: #c30400;
 	}
 	li#notesCue a:hover{
 		background: #bcb799;
 		color: #fff;
 	}
+	li#notesHide a:hover{
+		color: #8A6B57;
+	}	
 	div#notesDes {
 		text-align:left;
 		margin-bottom:5px;

@@ -15,7 +15,7 @@ window.onerror = DmpError;
 var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1; 
 function chromeStyle(rome)
 {
-	if (rome){document.write('<style type="text/css">#credit {opacity:1}</style>')}
+	if (rome){document.write('<style type="text/css">#credit {opacity:1}</style>');}
 }
 
 
@@ -189,35 +189,35 @@ function loadStyle() { // if so load it!
 	setActiveStyleSheet(window.switchStyle);
 }
 window.onunload = function(e) { // save it on window close
-  var title = getActiveStyleSheet();
-  createCookie("style", title, 365);
+	var title = getActiveStyleSheet();
+	createCookie("style", title, 365);
 }
 
 
 // Array.indexOf( value, begin, strict ) - Return index of the first element that matches value
 Array.prototype.indexOf = function( v, b, s ) {
- for( var i = +b || 0, l = this.length; i < l; i++ ) {
-  if( this[i]===v || s && this[i]==v ) { return i; }
- }
- return -1;
+	for( var i = +b || 0, l = this.length; i < l; i++ ) {
+	if( this[i]===v || s && this[i]==v ) { return i; }
+	}
+	return -1;
 };
 
 Array.prototype.inArray = function (value)
 // http://hiox.org/index.php?id=102
 // Returns true if the passed value is found in the
 // array. Returns false if it is not.
-//    if (myList.inArray('search term')) {
-//    	Found it!
+// if (myList.inArray('search term')) {
+// Found it!
 //    }
 {
-var i;
-for (i=0; i < this.length; i++) {
-// Matches identical (===), not just similar (==).
-if (this[i] === value) {
-return true;
-}
-}
-return false;
+	var i;
+	for (i=0; i < this.length; i++) {
+		// Matches identical (===), not just similar (==).
+		if (this[i] === value) {
+		return true;
+		}
+	}
+	return false;
 };
 
 
