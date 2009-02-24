@@ -316,7 +316,7 @@
 		top:6px;
 		text-align:right;
 		color:#dddcE7;
-		padding-top:20px;
+		padding-top: 15px;
 		line-height: 9pt;
 		padding-right: 10px;
 	}
@@ -582,7 +582,7 @@
 
 	/* Video Post */
 	.video object embed, .video object {
-		margin: 5px auto;
+		width: 430px;
 	}
 
 

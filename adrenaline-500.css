@@ -37,8 +37,12 @@ div.subtitle h2 {
 	margin-left:30px;
 	width:500px;
 }
-
+/* Video Post */
+.video object embed, .video object {
+	width: 500px;
+}
 /* for public  */
 #credit-public{
 	padding:25px 0px 15px 0px;
 }
+
