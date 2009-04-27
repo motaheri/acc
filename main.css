@@ -148,6 +148,8 @@
 	}
 	div#menu {
 		padding-top: 37px;
+		visibility: none;
+		display:none;
 	}
 	div#menu p {
 		padding:0px 10px;
